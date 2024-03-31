@@ -1,0 +1,67 @@
+/* stars.css */
+
+
+@keyframes twinkling {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkling 3s infinite;
+}
+
+.star:nth-child(1) {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.star:nth-child(2) {
+  top: 20%;
+  left: 70%;
+  animation-delay: 1s;
+}
+
+.star:nth-child(3) {
+  top: 30%;
+  left: 40%;
+  animation-delay: 2s;
+}
+
+.star:nth-child(4) {
+  top: 50%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.star:nth-child(5) {
+  top: 70%;
+  left: 80%;
+  animation-delay: 1s;
+}
+
+.star:nth-child(6) {
+  top: 40%;
+  left: 60%;
+  animation-delay: 2s;
+}
+
+
+
+.shadow-xl {
+  box-shadow: 0px 4px 6px rgb(96, 12, 94);
+}
