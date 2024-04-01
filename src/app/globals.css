@@ -7,11 +7,7 @@
     animation: spin 3s linear infinite;
   }
 
-  .tituloCategoria {
-    color: red;
-    font-size: 23px;
 
-  }
 }
 
 @layer base {

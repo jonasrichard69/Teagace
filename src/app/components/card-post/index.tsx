@@ -10,7 +10,7 @@ import {
     AlertDialogTrigger
 } from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
-import { Download, Heart, PenLine, Share, UserRound } from "lucide-react";
+import { Download, Heart, MessageCircle, Share, UserRound } from "lucide-react";
 import Image from "next/image";
 
 
@@ -20,8 +20,9 @@ interface ICardPost {
     text: string
     author: string
     classname: string
+    tagCat: string
 }
-export const CardPost = ({ image, title, text, author, classname }: ICardPost) => {
+export const CardPost = ({ image, title, text, author, classname, tagCat }: ICardPost) => {
     return (
         <section className="flex flex-col pb-6">
             <div className="pl-4 gap-3 flex justify-start md:text-lg lg:text-xl items-end">
@@ -51,7 +52,7 @@ export const CardPost = ({ image, title, text, author, classname }: ICardPost) =
                                             <button><Heart /></button>
                                             <button><Share /></button>
                                             <button><Download /></button>
-                                            <button><PenLine /></button>
+                                            <button><MessageCircle /></button>
                                         </div>
                                         <AlertDialogCancel>Sair</AlertDialogCancel>
 
@@ -64,8 +65,15 @@ export const CardPost = ({ image, title, text, author, classname }: ICardPost) =
                             <button><Heart /></button>
                             <button><Share /></button>
                             <button><Download /></button>
-                            <button><PenLine /></button>
+                            <button><MessageCircle /></button>
                         </div>
+
+                    </div>
+
+                    <div className="text-blue-500 mt-5">
+                        <ul>
+                            <li><a href="">{tagCat}</a></li>
+                        </ul>
                     </div>
                 </div>
             </div >
