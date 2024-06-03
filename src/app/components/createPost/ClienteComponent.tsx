@@ -3,16 +3,6 @@ import Image from 'next/image';
 import { useState } from 'react';
 import '../../waterAnimate.css';
 
-import { Paperclip } from 'lucide-react';
-
-const App = () => {
-    return (
-        <Paperclip />
-    );
-};
-
-export default App;
-
 export const CreatePost = () => {
     const [open, setOpen] = useState(false);
     const [postContent, setPostContent] = useState('');
@@ -62,19 +52,13 @@ export const CreatePost = () => {
                         />
                         <div className="flex justify-end">
                             <button
-                                className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded mr-2 w-28 h-10 flex"
+                                className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded mr-2"
                                 onClick={handleCreatePost}
                             >
-                                Postar
+                                Criar
                             </button>
                             <button
-                                className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded mr-2 w-28 h-10 flex items-center"
-                                onClick={handleClose}
-                            >
-                                Anexar <Paperclip size={18} className="ml-2" />
-                            </button>
-                            <button
-                                className="bg-red-500 hover:bg-red-700 text-white py-2 px-4 rounded mr-2 w-28 h-10"
+                                className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded"
                                 onClick={handleClose}
                             >
                                 Cancelar

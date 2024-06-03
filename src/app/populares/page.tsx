@@ -35,8 +35,8 @@ export default function Populares() {
                         {/* post */}
                         <div className="h-full max-w-4xl flex justify-center flex-col">
                             {/* ------- */}
-                            <CardPost classname="bg-pink-600" author="Myke Tyson" image="/camaleao.jpg" title="Osasco, Brasil" text="Em Osascos os camaleoes sao raros" tagCat="#fauna" />
-                            <CardPost classname="bg-pink-600" author="Bambam" image="/surrealismo.jpg" title="Paris, França" text="Essa Obra de Arte foi feita em 1320 a.C" tagCat="#arte" />
+                            <CardPost colorP="bg-pink-600" author="Myke Tyson" image="/camaleao.jpg" title="Osasco, Brasil" text="Em Osascos os camaleoes sao raros" tagCat="#fauna" />
+                            <CardPost colorP="bg-pink-600" author="Bambam" image="/surrealismo.jpg" title="Paris, França" text="Essa Obra de Arte foi feita em 1320 a.C" tagCat="#arte" />
 
                             {/* ------- */}
 

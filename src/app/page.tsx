@@ -4,7 +4,7 @@ import { Navbar } from "./components/navbar";
 import { joti_one } from "./layout";
 import './stars.css';
 
-export default function Home() {
+export default function App() {
 
   return (
 
@@ -35,8 +35,8 @@ export default function Home() {
             {/* post */}
             <div className="h-full max-w-4xl flex justify-center flex-col">
               {/* ------- */}
-              <CardPost classname="bg-blue-500" author="Myke Tyson" image="/muralhadachina.jpg" title="China" tagCat="Historia" text="A China, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes. A Tailândia, conhecida como Terra dos Sorrisos" />
-              <CardPost classname="bg-blue-500" author="Bambam" image="/fotoriodejaneiro.jpeg" title="Tailândia" tagCat="Cultura" text="A Tailândia, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes. A Tailândia, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes." />
+              <CardPost colorP="bg-blue-500" author="Myke Tyson" image="/muralhadachina.jpg" title="China" tagCat="Historia" text="A China, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes. A Tailândia, conhecida como Terra dos Sorrisos" />
+              <CardPost colorP="bg-blue-500" author="Bambam" image="/fotoriodejaneiro.jpeg" title="Tailândia" tagCat="Cultura" text="A Tailândia, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes. A Tailândia, conhecida como Terra dos Sorrisos, encanta com suas praias paradisíacas de águas cristalinas, templos ornamentados e uma rica cultura. Bangcoc, sua capital, é uma metrópole vibrante onde arranha-céus modernos contrastam com templos budistas antigos. A gastronomia tailandesa, com pratos como o Pad Thai e o curry, é uma explosão de sabores. Além disso, o país oferece atividades como trekking na selva, mergulho em recifes de corais e visitas a mercados flutuantes." />
 
               {/* ------- */}
 
